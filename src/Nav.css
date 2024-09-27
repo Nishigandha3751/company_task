@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.Nav-container {
+    display: flex;
+    position: relative;
+}
+
+.toggle-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 24px; /* Adjust icon size */
+    color: #000000; /* Icon color */
+    margin: 10px;
+    
+    
+}
+
+.toggle-button2{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 24px; /* Adjust icon size */
+    color: #000000; /* Icon color */
+    margin: 10px;
+    margin-left: 90%;
+   
+
+}
+
+.offcanvas {
+    width: 300px;
+    background-color: white;
+    border: 1px solid #ccc;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+    z-index: 5;
+    padding: 20px; /* General padding */
+}
+
+.map-offcanvas {
+    left: 500px; /* Adjust based on the first Offcanvas width */
+    width: 20%;
+    margin-left: 80%;
+    background-color: white;
+    border: 1px solid #ccc;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+    z-index: 5;
+}
+
+.offcanvas-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.close-button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.offcanvas-body {
+    margin-top: 20px;
+   
+}
+
+/* Add padding for the Offcanvas body */
+.padded-body {
+    padding: 10px 0; /* Top and bottom padding */
+}
+
+.offcanvas-body input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.offcanvas-body button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+}

@@ -1,0 +1,35 @@
+
+.slide {
+    position: relative;
+    min-width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .slide-img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-weight: bold; /* Make the text bold */
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7); /* Add shadow for better readability */
+  }
+  
+  .centered-text h2 {
+    font-size: 3rem;
+    margin: 0;
+    font-weight: bold; /* Ensure the title is bold */
+  }
+  
+  .centered-text p {
+    font-size: 1.5rem;
+    margin: 10px 0 0;
+    font-weight: bold; /* Ensure the description is bold */
+  }
+  
